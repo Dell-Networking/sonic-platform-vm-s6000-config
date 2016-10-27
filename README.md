@@ -1,13 +1,15 @@
-# sonic-platform-vm-s6000-config
-This repo holds the configuration files for the SONiC PAS component for VM platform.
+sonic-platform-vm-s6000-config
+==============================
 
-## Description
-The sonic PAS component will read the configuration files to determine how to initialize the system and understand which devices are expected to be present and should be tracked.
+This repo holds the configuration files for the SONiC platform adaptation service (PAS) component for the virtual machine (VM) platform.
 
-Building
+The SONiC PAS component reads configuration files to determine how to initialize the system, and understand which devices are expected to be present and should be tracked.
+
+Build
 --------
-Please see the instructions in the sonic-nas-manifest repo for more details on the common build tools.  [Sonic-nas-manifest](https://github.com/Azure/sonic-nas-manifest)
+See [sonic-nas-manifest](https://github.com/Azure/sonic-nas-manifest) for more information on common build tools.
 
-sonic_build -- clean binary
+### Build command
+    sonic_build -- clean binary
 
 (c) Dell 2016
